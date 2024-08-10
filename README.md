@@ -1,4 +1,4 @@
-# Assignment
+# Online Pooling System
 Online Polling System
 
 ![image](https://github.com/user-attachments/assets/4793efd1-1968-4760-bb99-a83ce2e6acb1)

@@ -11,8 +11,8 @@ app.use(bodyParser.json());
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: '200007',
-    database: 'polling_system'
+    password: 'ENTER YOUR OWN MYSQL CONNECTION PASSWORD',
+    database: 'ENTER YOUR OWN DATABASE NAME'
 });
 
 db.connect((err) => {

@@ -1,4 +1,4 @@
-#Create Table in database using the queries below.
+Create Table in database using the queries below.
 
 create database polling_system;
 

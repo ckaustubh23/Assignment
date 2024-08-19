@@ -11,8 +11,13 @@ app.use(bodyParser.json());
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
+<<<<<<< HEAD
+    password: '23073604', 
+    database: 'polling_system'
+=======
     password: 'ENTER YOUR PASSWORD', 
     database: 'ENTER YOUR DATABASE NAME'
+>>>>>>> origin/main
 });
 
 db.connect((err) => {
@@ -61,6 +66,21 @@ app.post('/submit-vote', (req, res) => {
     });
 });
 
+<<<<<<< HEAD
+app.get('/admin-polls', (req, res) => {
+    db.query('SELECT * FROM polls', (err, results) => {
+        if (err) {
+            console.error('Error fetching polls:', err.message);
+            return res.status(500).send({ success: false, message: 'Error fetching polls' });
+        }
+        res.send(results);
+    });
+});
+
+app.listen(5001, () => {
+    console.log('Server started on port 5001');
+=======
 app.listen(3001, () => {
     console.log('Server started on port 3001');
+>>>>>>> origin/main
 });

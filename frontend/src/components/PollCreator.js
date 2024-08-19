@@ -9,7 +9,11 @@ const PollCreator = () => {
     const [option2, setOption2] = useState('');
 
     const createPoll = async () => {
+<<<<<<< HEAD
+        const response = await fetch('http://localhost:5001/create-poll', {
+=======
         const response = await fetch('http://localhost:3001/create-poll', {
+>>>>>>> origin/main
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ title, description, option1, option2 })

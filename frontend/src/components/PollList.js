@@ -7,7 +7,11 @@ const PollList = () => {
     const [selectedPoll, setSelectedPoll] = useState(null);
 
     useEffect(() => {
+<<<<<<< HEAD
+        fetch('http://localhost:5001/polls')
+=======
         fetch('http://localhost:3001/polls')
+>>>>>>> origin/main
             .then(res => res.json())
             .then(data => setPolls(data));
     }, []);

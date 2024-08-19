@@ -1,4 +1,7 @@
+<<<<<<< HEAD
+=======
 /* Container styles */
+>>>>>>> origin/main
 div {
     max-width: 600px;
     margin: 30px auto;
@@ -8,14 +11,20 @@ div {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+<<<<<<< HEAD
+=======
 /* Poll title styles */
+>>>>>>> origin/main
 h3 {
     text-align: center;
     color: #333333;
     margin-bottom: 10px;
 }
 
+<<<<<<< HEAD
+=======
 /* Poll description styles */
+>>>>>>> origin/main
 p {
     text-align: center;
     color: #555555;
@@ -24,7 +33,10 @@ p {
     margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
+=======
 /* Button styles */
+>>>>>>> origin/main
 button {
     display: block;
     width: 100%;
@@ -43,7 +55,10 @@ button:hover {
     background-color: rgb(2, 54, 2);
 }
 
+<<<<<<< HEAD
+=======
 /* Vote confirmation styles */
+>>>>>>> origin/main
 h1 {
     text-align: center;
     color: #28a745;
@@ -55,3 +70,58 @@ h3 {
     color: #333333;
     margin-bottom: 20px;
 }
+<<<<<<< HEAD
+
+/* Media Queries for responsiveness */
+
+/* For tablets and smaller devices (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    div {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+/* For mobile devices (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    div {
+        max-width: 95%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 6px;
+    }
+}
+=======
+>>>>>>> origin/main

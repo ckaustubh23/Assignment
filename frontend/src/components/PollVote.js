@@ -5,7 +5,11 @@ const PollVote = ({ poll, onBack }) => {
     const [voteSubmitted, setVoteSubmitted] = useState(false);
 
     const submitVote = async (option) => {
+<<<<<<< HEAD
+        const response = await fetch('http://localhost:5001/submit-vote', {
+=======
         const response = await fetch('http://localhost:3001/submit-vote', {
+>>>>>>> origin/main
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ pollId: poll.id, option })

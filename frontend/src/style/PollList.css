@@ -1,4 +1,7 @@
+<<<<<<< HEAD
+=======
 /* Container styles */
+>>>>>>> origin/main
 div {
     max-width: 800px;
     margin: 30px auto;
@@ -8,14 +11,20 @@ div {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+<<<<<<< HEAD
+=======
 /* Header styles */
+>>>>>>> origin/main
 h2 {
     text-align: center;
     color: #333333;
     margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
+=======
 /* Poll item styles */
+>>>>>>> origin/main
 div > div {
     padding: 15px;
     margin: 10px 0;
@@ -26,23 +35,87 @@ div > div {
     transition: background-color 0.3s, border-color 0.3s;
 }
 
+<<<<<<< HEAD
+=======
 /* Poll item hover effect */
+>>>>>>> origin/main
 div > div:hover {
     background-color: #f1f1f1;
     border-color: #ccc;
 }
 
+<<<<<<< HEAD
+=======
 /* Poll title styles */
+>>>>>>> origin/main
 h3 {
     margin: 0;
     color: green;
     font-size: 18px;
 }
 
+<<<<<<< HEAD
+=======
 /* Poll description styles */
+>>>>>>> origin/main
 p {
     margin: 5px 0 0;
     color: #555555;
     font-size: 14px;
     line-height: 1.4;
 }
+<<<<<<< HEAD
+
+/* Media Queries for responsiveness */
+
+/* For tablets and smaller devices (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    div {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    div > div {
+        padding: 12px;
+        margin: 8px 0;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+}
+
+/* For mobile devices (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    div {
+        max-width: 95%;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    div > div {
+        padding: 10px;
+        margin: 5px 0;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
+=======
+>>>>>>> origin/main

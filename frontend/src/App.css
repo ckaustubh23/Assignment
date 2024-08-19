@@ -1,4 +1,7 @@
+<<<<<<< HEAD
+=======
 /* General styles */
+>>>>>>> origin/main
 body {
   font-family: Arial, sans-serif;
   background-color: #f7f7f7;
@@ -6,7 +9,10 @@ body {
   padding: 0;
 }
 
+<<<<<<< HEAD
+=======
 /* Container styles */
+>>>>>>> origin/main
 div {
   max-width: 800px;
   margin: 50px auto;
@@ -16,14 +22,20 @@ div {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+<<<<<<< HEAD
+=======
 /* Header styles */
+>>>>>>> origin/main
 h1 {
   text-align: center;
   color: #333333;
   margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
+=======
 /* Navigation styles */
+>>>>>>> origin/main
 nav {
   display: flex;
   justify-content: center;
@@ -44,7 +56,10 @@ nav a:hover {
   background-color: rgb(2, 54, 2);
 }
 
+<<<<<<< HEAD
+=======
 /* Paragraph styles */
+>>>>>>> origin/main
 p {
   text-align: center;
   color: #555555;
@@ -52,7 +67,10 @@ p {
   line-height: 1.5;
 }
 
+<<<<<<< HEAD
+=======
 /* Button styles (Optional, if you need buttons elsewhere) */
+>>>>>>> origin/main
 link {
   padding: 10px 20px;
   color: #ffffff;
@@ -61,3 +79,59 @@ link {
   border-radius: 5px;
 }
 
+<<<<<<< HEAD
+/* Media Queries for responsiveness */
+
+/* For tablets and below (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  div {
+    margin: 30px auto;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  nav {
+    /* flex-direction: column; */
+    gap: 10px;
+  }
+
+  nav a {
+    text-align: center;
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+/* For mobile devices (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  div {
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  nav {
+    gap: 5px;
+  }
+
+  nav a {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
+=======
+>>>>>>> origin/main
